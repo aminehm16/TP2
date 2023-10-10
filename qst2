@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+
+int main() {
+    int notes[] = {12, 15, 18, 10, 8}; 
+    int taille = 5;  
+    int somme = sommeTableau(notes, taille);
+
+    printf("La somme des éléments du tableau est : %d\n", somme);
+
+    return 0;
+}
