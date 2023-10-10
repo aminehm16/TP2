@@ -1,0 +1,14 @@
+int main() {
+    int suiteCroissante[] = {1, 2, 3, 4, 5};  
+    int tailleCroissante = 5;  
+
+    int estCroissanteResultat = estCroissante(suiteCroissante, tailleCroissante);
+
+    if (estCroissanteResultat) {
+        printf("La suite est croissante.\n");
+    } else {
+        printf("La suite n'est pas croissante.\n");
+    }
+
+    return 0;
+}
